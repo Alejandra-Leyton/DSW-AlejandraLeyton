@@ -34,6 +34,11 @@ body {
     margin: 25px;
 }
 
+.content-m {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
 h3 {
     margin-bottom: 5px;
     margin-top: 20px;
@@ -58,14 +63,6 @@ hr.dashed {
     border-bottom: none;
 }
 
-.w-full {
-    width: 100%;
-}
-
-.w-50 {
-    width: 50%;
-}
-
 .float-left {
     float: left;
 }
@@ -83,6 +80,36 @@ hr.dashed {
 
 .author-img {
     border: 3px rgba(61, 61, 61, 0.411) solid;
+}
+
+p, h1, h2, h3, h4, h5 {
+    color: rgb(51, 51, 51);
+}
+
+/* WIDTH */
+
+.w-full {
+    width: 100%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.w-30 {
+    width: 30%;
 }
 
 /* HEADER */
@@ -203,8 +230,20 @@ nav {
 
 /* MARGIN */
 
+.m-auto {
+    margin: 0 auto;
+}
+
 .ml-30 {
     margin-left: 30px;
+}
+
+.mr-30 {
+    margin-right: 30px;
+}
+
+.mr-60 {
+    margin-right: 60px;
 }
 
 .ml-5 {
@@ -219,8 +258,12 @@ nav {
     margin-top: 40px;
 }
 
+.mt-50 {
+    margin-top: 50px;
+}
+
 .mt-60 {
-    margin-top: 60px;
+    margin-top: 60px !important;
 }
 
 .mb-5 {
