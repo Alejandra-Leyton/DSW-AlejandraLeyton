@@ -1,5 +1,3 @@
-<!DOCTYPE HTML>
-
 <html lang="es">
     <head>
         <meta charset="utf-8"/>
@@ -55,7 +53,7 @@
                         </p><br>
 
                         <div class="text-center">
-                            <img src="./resources/images/css.png" width="100">
+                            <img src="./ovi_propiedades_css/resources/images/css.png" width="100">
                         </div><br>
                         
                         <p>Comenzaremos por indicarte los objetivos de este proyecto:</p><br>
@@ -70,7 +68,7 @@
                         </ul><br>
                         <p>Te invito a que continúes navegando por el sitio web para que conozcas más sobre
                             las <strong>propiedades básicas de CSS</strong>.
-                            Te recomiendo comenzar con la propiedad <a href="./app/concepts/display.html">Display.</a>
+                            Te recomiendo comenzar con la propiedad <a href="./ovi_propiedades_css/app/concepts/display.html">Display.</a>
                         </p><br><br>
                     </div>
                     <aside class="text-right">
