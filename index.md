@@ -4,44 +4,44 @@
     <head>
         <meta charset="utf-8"/>
         <title>Propiedades básicas CSS</title>
-        <link rel="stylesheet" href="resources/css/styles.css">
+        <link rel="stylesheet" href="./ovi_propiedades_css/resources/css/styles.css">
     </head>
 
     <body>
         <div class="card">
             <header id="header">
                 <div class="header-img">
-                    <img class="logo-style" src="./resources/images/Logo.PNG">
+                    <img class="logo-style" src="./ovi_propiedades_css/resources/images/Logo.PNG">
                 </div>
             </header>
 
             <nav>
                 <ul class="ul-navbar">
-                    <li><a class="active dropbtn" href="index.html">Inicio</a></li>
+                    <li><a class="active dropbtn" href="./ovi_propiedades_css/index.html">Inicio</a></li>
                     <li class="dropdown">
                         <a href="javascript:void(0)" class="dropbtn">Conceptos</a>
                         <div class="dropdown-content">
-                            <a href="./app/concepts/display.html">Display</a>
-                            <a href="./app/concepts/size.html">Tamaño</a>
-                            <a href="./app/concepts/font.html">Fuente</a>
-                            <a href="./app/concepts/background.html">Fondo</a>
+                            <a href="./ovi_propiedades_css/app/concepts/display.html">Display</a>
+                            <a href="./ovi_propiedades_css/app/concepts/size.html">Tamaño</a>
+                            <a href="./ovi_propiedades_css/app/concepts/font.html">Fuente</a>
+                            <a href="./ovi_propiedades_css/app/concepts/background.html">Fondo</a>
                         </div>
                     </li>
                     <li class="dropdown">
                         <a href="javascript:void(0)" class="dropbtn">Recursos</a>
                         <div class="dropdown-content">
-                          <a href="./app/multimedia/multimedia_1.html">Propiedad display</a>
-                          <a href="./app/multimedia/multimedia_2.html">Propiedad background</a>
+                          <a href="./ovi_propiedades_css/app/multimedia/multimedia_1.html">Propiedad display</a>
+                          <a href="./ovi_propiedades_css/app/multimedia/multimedia_2.html">Propiedad background</a>
                         </div>
                     </li>
                     <li class="dropdown">
                         <a href="javascript:void(0)" class="dropbtn">Autoevaluación</a>
                         <div class="dropdown-content">
-                          <a href="./app/self_evaluation/self_evaluation_1.html">Autoevaluación 1</a>
-                          <a href="./app/self_evaluation/self_evaluation_2.html">Autoevaluación 2</a>
+                          <a href="./ovi_propiedades_css/app/self_evaluation/self_evaluation_1.html">Autoevaluación 1</a>
+                          <a href="./ovi_propiedades_css/app/self_evaluation/self_evaluation_2.html">Autoevaluación 2</a>
                         </div>
                     </li>
-                    <li style="float:right"><a class="dropbtn" href="./app/author/author.html">Autor</a></li>
+                    <li style="float:right"><a class="dropbtn" href="./ovi_propiedades_css/app/author/author.html">Autor</a></li>
                 </ul>
             </nav>
 
