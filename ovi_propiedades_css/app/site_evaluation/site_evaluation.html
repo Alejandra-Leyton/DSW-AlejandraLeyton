@@ -1,0 +1,89 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Propiedades básicas CSS" />
+    <meta name="author" content="Alejandra Leyton" />
+    <title>Propiedades básicas CSS</title>
+    <link rel="stylesheet" href="../../resources/css/styles.css">
+</head>
+
+<body>
+    <div class="card">
+        <header id="header">
+            <div class="header-img">
+                <img class="logo-style" src="../../resources/images/Logo.PNG">
+            </div>
+        </header>
+
+        <nav>
+            <ul class="ul-navbar">
+                <li>
+                    <a href="../../index.html">Inicio</a>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Conceptos</a>
+                    <div class="dropdown-content">
+                        <a href="../concepts/display.html">Display</a>
+                        <a href="../concepts/size.html">Tamaño</a>
+                        <a href="../concepts/font.html">Fuente</a>
+                        <a href="../concepts/background.html">Fondo</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Recursos</a>
+                    <div class="dropdown-content">
+                        <a href="../multimedia/multimedia_1.html">Propiedad display</a>
+                        <a href="../multimedia/multimedia_2.html">Propiedad background</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn" href="javascript:void(0)" class="dropbtn">Autoevaluación</a>
+                    <div class="dropdown-content">
+                        <a href="../self_evaluation/self_evaluation_1.html">Crucigrama</a>
+                        <a href="../self_evaluation/self_evaluation_2.html">Sopa de letras</a>
+                    </div>
+                </li>
+                <li><a class="active dropbtn" href="">Evaluación sitio</a>
+                </li>
+                <li style="float:right"><a class="dropbtn" href="../author/author.html">Autor</a></li>
+            </ul>
+        </nav>
+
+        <div class="content">
+            <div class="w-full text-center">
+                <h4>Evaluación sitio</h4>
+                <br>
+                <!-- <iframe src="../../resources/files/Matriz-EvalSite.pdf" frameborder="0"></iframe> -->
+                <object data="../../resources/files/Matriz-EvalSite.pdf" type="application/pdf" height="1410"
+                    width="1020">
+                    <embed src="../../resources/files/Matriz-EvalSite.pdf" type="application/pdf" />
+                </object>
+            </div>
+
+            <br><br>
+
+            <div class="w-full">
+                <h4 class="text-center">Mejoras aplicadas al sitio</h4>
+                <br>
+                <p>De la evaluación realizada se implementan las mejoras para la etiqueta META, 
+                    que incluye los atributos <b>Description</b> y <b>Author</b>, con el fin de que el sitio
+                tenga relevancia en los buscadores y cuente con el nombre del autor del sitio para aspectos
+            legales respectivamente.</p>
+            </div>
+        </div>
+
+        <footer id="footer">
+            <div class="footer-style mt-60">
+                <hr class="hr-size">
+                <p>Universidad Nacional Abierta y a Distancia UNAD</p>
+                <p>Escuela de Ciencias Básicas, Tecnología e Ingeniería</p>
+                <p>2020</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

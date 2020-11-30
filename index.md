@@ -35,8 +35,8 @@
                     <li class="dropdown">
                         <a href="javascript:void(0)" class="dropbtn">Autoevaluación</a>
                         <div class="dropdown-content">
-                          <a href="./ovi_propiedades_css/app/self_evaluation/self_evaluation_1.html">Autoevaluación 1</a>
-                          <a href="./ovi_propiedades_css/app/self_evaluation/self_evaluation_2.html">Autoevaluación 2</a>
+                          <a href="./ovi_propiedades_css/app/self_evaluation/self_evaluation_1.html">Crucigrama</a>
+                          <a href="./ovi_propiedades_css/app/self_evaluation/self_evaluation_2.html">Sopa de letras</a>
                         </div>
                     </li>
                     <li style="float:right"><a class="dropbtn" href="./ovi_propiedades_css/app/author/author.html">Autor</a></li>
